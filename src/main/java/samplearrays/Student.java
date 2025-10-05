@@ -11,7 +11,6 @@ class Student {
 
     // keep counter private; expose getter only
     private static int numStudent = 0;
-
     public Student(int id, String name) {
         this.id = id;
         this.name = name;
